@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/menu_home2">
+    <fragment
+        android:id="@+id/menu_home2"
+        android:name="com.example.homescreen.Home"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/menu_search2"
+        android:name="com.example.homescreen.Search"
+        android:label="fragment_search2"
+        tools:layout="@layout/fragment_search2" />
+    <fragment
+        android:id="@+id/add2"
+        android:name="com.example.homescreen.Add"
+        android:label="fragment_add2"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/menu_mark2"
+        android:name="com.example.homescreen.mark"
+        android:label="fragment_mark2"
+        tools:layout="@layout/fragment_mark2" />
+    <fragment
+        android:id="@+id/menu_profile2"
+        android:name="com.example.homescreen.profile"
+        android:label="fragment_profile2"
+        tools:layout="@layout/fragment_profile2" />
+
+</navigation>

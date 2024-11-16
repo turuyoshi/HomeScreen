@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_bottom_bar_home2">Home</string>
+    <string name="menu_bottom_bar_search">Buscar</string>
+    <string name="menu_bottom_bar_add">Publicar</string>
+    <string name="menu_bottom_bar_mark">Marcados</string>
+    <string name="menu_bottom_bar_profile">Perfil</string>
+    <string name="add_a_comment">Add a comment...</string>
+    <string name="matchflix">MatchFlix</string>
+
+</resources>

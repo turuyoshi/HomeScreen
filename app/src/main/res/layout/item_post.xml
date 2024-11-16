@@ -1,0 +1,65 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="8dp">
+
+<!-- Nome do usuário -->
+<TextView
+    android:id="@+id/tvUsername"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Username"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+<!-- Imagem da postagem -->
+<ImageView
+    android:id="@+id/imgPost"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:scaleType="centerCrop" />
+
+<!-- Legenda da postagem -->
+<TextView
+    android:id="@+id/tvCaption"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Caption"
+    android:paddingTop="8dp" />
+
+<!-- Comentários -->
+<LinearLayout
+    android:id="@+id/layoutComments"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <!-- Exemplo de um comentário -->
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User1: Nice post!" />
+
+</LinearLayout>
+
+<!-- Campo para adicionar um novo comentário -->
+<EditText
+    android:id="@+id/etNewComment"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/add_a_comment"
+    android:padding="8dp" />
+
+<Button
+    android:id="@+id/btnAddComment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Post Comment"
+    android:layout_marginTop="8dp"/>
+</LinearLayout>
+
+
