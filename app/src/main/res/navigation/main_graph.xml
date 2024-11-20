@@ -21,11 +21,6 @@
         tools:layout="@layout/fragment_add" />
 
     <fragment
-        android:id="@+id/menu_mark2"
-        android:name="com.example.homescreen.mark"
-        android:label="fragment_mark2"
-        tools:layout="@layout/fragment_mark2" />
-    <fragment
         android:id="@+id/menu_profile2"
         android:name="com.example.homescreen.profile"
         android:label="fragment_profile2"
